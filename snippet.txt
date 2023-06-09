@@ -1,0 +1,39 @@
+<model-viewer src="GreenHouseV4.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="2" exposure="2" environment-image="spruit_sunrise_1k_HDR.hdr" skybox-image="spruit_sunrise_1k_HDR.hdr" shadow-softness="1">
+    <button class="Hotspot" slot="hotspot-1" data-position="-4.990405251759871m 0.5324895977973938m 7.914196614836151m" data-normal="0m 1m 0m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">PLOT_1</div>
+    </button><button class="Hotspot" slot="hotspot-2" data-position="-5.33751536613952m 0.5324895977973938m 4.793288698105745m" data-normal="0m 1m 0m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">PLOT_2</div>
+    </button><button class="Hotspot" slot="hotspot-3" data-position="-4.391673799975326m 0.5324895977973938m 1.5469299140357053m" data-normal="0m 1m 0m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">PLOT_3</div>
+    </button><button class="Hotspot" slot="hotspot-4" data-position="-5.568458049588607m 0.5324895977973938m -1.937169718999448m" data-normal="0m 1m 0m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">PLOT_4</div>
+    </button><button class="Hotspot" slot="hotspot-5" data-position="-5.009236934126367m 0.5324895977973938m -9.3973011826714m" data-normal="0m 1m 0m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">PLOT_6</div>
+    </button><button class="Hotspot" slot="hotspot-6" data-position="-5.095618942918215m 0.5324895977973938m -5.467274452640995m" data-normal="0m 1m 0m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">PLOT_5</div>
+    </button><button class="Hotspot" slot="hotspot-7" data-position="-0.8737388218415987m 0.5324895977973938m -9.423857135720441m" data-normal="0m 1m 0m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">PLOT_12</div>
+    </button><button class="Hotspot" slot="hotspot-8" data-position="-0.6466590161436159m 0.5324895977973938m -5.608879638845657m" data-normal="0m 1m 0m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">PLOT_11</div>
+    </button><button class="Hotspot" slot="hotspot-9" data-position="-0.7324535802053695m 0.5324895977973938m -1.9686361856026338m" data-normal="0m 1m 0m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">PLOT_10</div>
+    </button><button class="Hotspot" slot="hotspot-10" data-position="-0.5435863037019146m 0.5324895977973938m 1.413161060549029m" data-normal="0m 1m 0m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">PLOT_9</div>
+    </button><button class="Hotspot" slot="hotspot-11" data-position="-1.1010403224720555m 0.5324895977973938m 4.88090278969275m" data-normal="0m 1m 0m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">PLOT_8</div>
+    </button><button class="Hotspot" slot="hotspot-12" data-position="-0.6759126644188314m 0.5324895977973938m 7.283420321848414m" data-normal="0m 1m 0m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">PLOT_7</div>
+    </button><button class="Hotspot" slot="hotspot-13" data-position="4.046039369641694m 0.5324895977973938m -9.555566223457472m" data-normal="0m 1m 0m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">PLOT_18</div>
+    </button><button class="Hotspot" slot="hotspot-14" data-position="3.6060272599123024m 0.5324895977973938m -5.6907040310996075m" data-normal="0m 1m 0m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">PLOT_17</div>
+    </button><button class="Hotspot" slot="hotspot-15" data-position="3.6769236496796616m 0.5324895977973938m -2.017297734469305m" data-normal="0m 1m 0m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">PLOT_16</div>
+    </button><button class="Hotspot" slot="hotspot-16" data-position="3.7482602182152327m 0.5324895977973938m 1.4389707800166507m" data-normal="0m 1m 0m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">PLOT_15</div>
+    </button><button class="Hotspot" slot="hotspot-17" data-position="3.859036169467867m 0.5324895977973938m 4.749799737455787m" data-normal="0m 1m 0m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">PLOT_14</div>
+    </button><button class="Hotspot" slot="hotspot-18" data-position="3.7743430642745963m 0.5324895977973938m 7.846699546722473m" data-normal="0m 1m 0m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">PLOT_13</div>
+    </button>
+</model-viewer>

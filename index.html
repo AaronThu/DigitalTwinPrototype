@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Digital Twin</title>
+    <meta charset="utf-8">
+    <meta name="description" content="&lt;model-viewer&gt; template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" href="./styles.css" rel="stylesheet"/>
+  </head>
+  <body>
+    
+    <!-- <model-viewer> HTML element -->
+    <model-viewer src="GreenHouseV5.glb" camera-controls poster="poster.webp" shadow-intensity="2" exposure="2" environment-image="spruit_sunrise_1k_HDR.hdr" skybox-image="spruit_sunrise_1k_HDR.hdr" shadow-softness="1" >
+        
+        <button class='Hotspot' slot='hotspot-1' data-position='-5m 0.5324895977973938m 7.3m 'data-normal='0m 1m 0m'data-visibility-attribute='visible' onclick='showPlotInfo(1)'><div class='HotspotAnnotation' id='HotSpotID_1'></div></button><button class='Hotspot' slot='hotspot-2' data-position='-5m 0.5324895977973938m 3.8m 'data-normal='0m 1m 0m'data-visibility-attribute='visible' onclick='showPlotInfo(2)'><div class='HotspotAnnotation' id='HotSpotID_2'></div></button><button class='Hotspot' slot='hotspot-3' data-position='-5m 0.5324895977973938m 0.2999999999999998m 'data-normal='0m 1m 0m'data-visibility-attribute='visible' onclick='showPlotInfo(3)'><div class='HotspotAnnotation' id='HotSpotID_3'></div></button><button class='Hotspot' slot='hotspot-4' data-position='-5m 0.5324895977973938m -3.2m 'data-normal='0m 1m 0m'data-visibility-attribute='visible' onclick='showPlotInfo(4)'><div class='HotspotAnnotation' id='HotSpotID_4'></div></button><button class='Hotspot' slot='hotspot-5' data-position='-5m 0.5324895977973938m -6.7m 'data-normal='0m 1m 0m'data-visibility-attribute='visible' onclick='showPlotInfo(5)'><div class='HotspotAnnotation' id='HotSpotID_5'></div></button><button class='Hotspot' slot='hotspot-6' data-position='-5m 0.5324895977973938m -10.2m 'data-normal='0m 1m 0m'data-visibility-attribute='visible' onclick='showPlotInfo(6)'><div class='HotspotAnnotation' id='HotSpotID_6'></div></button>
+<!--MIDDLE ROW-->
+<button class='Hotspot' slot='hotspot-7' data-position='-0.75m 0.5324895977973938m 7.3m 'data-normal='0m 1m 0m'data-visibility-attribute='visible' onclick='showPlotInfo(7)'><div class='HotspotAnnotation' id='HotSpotID_7'></div></button><button class='Hotspot' slot='hotspot-8' data-position='-0.75m 0.5324895977973938m 3.8m 'data-normal='0m 1m 0m'data-visibility-attribute='visible' onclick='showPlotInfo(8)'><div class='HotspotAnnotation' id='HotSpotID_8'></div></button><button class='Hotspot' slot='hotspot-9' data-position='-0.75m 0.5324895977973938m 0.2999999999999998m 'data-normal='0m 1m 0m'data-visibility-attribute='visible' onclick='showPlotInfo(9)'><div class='HotspotAnnotation' id='HotSpotID_9'></div></button><button class='Hotspot' slot='hotspot-10' data-position='-0.75m 0.5324895977973938m -3.2m 'data-normal='0m 1m 0m'data-visibility-attribute='visible' onclick='showPlotInfo(10)'><div class='HotspotAnnotation' id='HotSpotID_10'></div></button><button class='Hotspot' slot='hotspot-11' data-position='-0.75m 0.5324895977973938m -6.7m 'data-normal='0m 1m 0m'data-visibility-attribute='visible' onclick='showPlotInfo(11)'><div class='HotspotAnnotation' id='HotSpotID_11'></div></button><button class='Hotspot' slot='hotspot-12' data-position='-0.75m 0.5324895977973938m -10.2m 'data-normal='0m 1m 0m'data-visibility-attribute='visible' onclick='showPlotInfo(12)'><div class='HotspotAnnotation' id='HotSpotID_12'></div></button>
+   <!--RIGHT ROW-->
+   <button class='Hotspot' slot='hotspot-13' data-position='4m 0.5324895977973938m 7.3m 'data-normal='0m 1m 0m'data-visibility-attribute='visible' onclick='showPlotInfo(13)'><div class='HotspotAnnotation' id='HotSpotID_13'></div></button><button class='Hotspot' slot='hotspot-14' data-position='4 0.5324895977973938m 3.8m 'data-normal='0m 1m 0m'data-visibility-attribute='visible' onclick='showPlotInfo(14)'><div class='HotspotAnnotation' id='HotSpotID_14'></div></button><button class='Hotspot' slot='hotspot-15' data-position='4 0.5324895977973938m 0.2999999999999998m 'data-normal='0m 1m 0m'data-visibility-attribute='visible' onclick='showPlotInfo(15)'><div class='HotspotAnnotation' id='HotSpotID_15'></div></button><button class='Hotspot' slot='hotspot-16' data-position='4 0.5324895977973938m -3.2m 'data-normal='0m 1m 0m'data-visibility-attribute='visible' onclick='showPlotInfo(16)'><div class='HotspotAnnotation' id='HotSpotID_16'></div></button><button class='Hotspot' slot='hotspot-17' data-position='4 0.5324895977973938m -6.7m 'data-normal='0m 1m 0m'data-visibility-attribute='visible' onclick='showPlotInfo(17)'><div class='HotspotAnnotation' id='HotSpotID_17'></div></button><button class='Hotspot' slot='hotspot-18' data-position='4 0.5324895977973938m -10.2m 'data-normal='0m 1m 0m'data-visibility-attribute='visible' onclick='showPlotInfo(18)'><div class='HotspotAnnotation' id='HotSpotID_18'></div></button>
+<!--OTHER-->
+</button><button class="Hotspot" slot="hotspot-19" data-position="0m 5m 5m" data-normal="0m 1m 0m" data-visibility-attribute="visible"onclick="showPlotInfo('VESTIGING')">
+    <div class="HotspotAnnotation"id="HotSpotID_VESTIGING">VESTIGING</div>
+   
+      </button>
+    </div>
+    </model-viewer>  
+    <!-- Loads <model-viewer> for browsers: -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
+    <script src="script.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+
+
+
+    </script>
+  </body>
+</html>
